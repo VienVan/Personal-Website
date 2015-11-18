@@ -1,6 +1,5 @@
 body {
-  background: url('header.jpg'); no-repeat bottom center scroll;
-  background-color: #000;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('header.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -9,22 +8,115 @@ body {
 header {
   text-align: center;
   color: white;
-  width: 100%;
   padding: 100px 0;
+  background: linear-gradient(rgba(212, 175, 55, 0.2), rgba(0, 0, 0, 0.5));
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
+
 
 header h1 {
   font-family: Questrial, Helvetica, sans-serif;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: bolder;
+  display: inline;
+  border: 1px solid white;
+  padding: 10px;
+
 }
 
 header h2 {
   font-family: Questrial, Helvetica, sans-serif;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 100;
 }
 header h3 {
   font-family: Courgette;
+  font-size: 45px;
+}
+
+.body {
+  font-family: Questrial;
+  color: rgba(255,255,255,.6);
+}
+#who {
+  font-size: 100px;
+  color: rgba(212, 175, 55, .7);
+}
+.profile {
+  height: auto;
+  width: auto;
   font-size: 30px;
+  margin: 20px 20px;
+  background: rgba(125, 125, 125, .5);
+  padding: 10px;
+}
+.profile:nth-of-type(2n + 1) {
+  text-align: center;
+
+}
+
+.profile:nth-of-type(3n +1) {
+  text-align: right;
+}
+
+
+#interests {
+  font-size: 40px;
+  color: rgba(212, 175, 55, .6);
+  text-align: center;
+}
+.body .interests {
+  height: auto;
+  display: inline;
+  padding: 20px;
+}
+
+span  {
+  font-size: 50px;
+  color: red;
+  font-family: Raleway Dots;
+}
+
+#contacts {
+  height: auto;
+  background-color: rgba(255, 255, 255, .3)
+  margin: auto 0;
+}
+
+div h2 {
+  padding: 10px;
+  font-size: 50px;
+  font-family: Raleway Dots;
+  text-align: center;
+  font-weight: bolder;
+}
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, .6);
+  background: rgba(100, 100, 100, .5);
+  padding: 10px;
+}
+div {
+  height: 400px;
+  width: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(212, 175, 0, 0.1));
+  margin: 30px auto 30px;
+}
+.contact {
+  text-align: center;
+  display: block;
+  padding: 10px 20px 0px 20px;
+  font-family: Raleway Dots;
+}
+
+article {
+  text-align: center;
+}
+#socialmedia {
+  display: inline-block;
+  text-align: right;
+
 }
